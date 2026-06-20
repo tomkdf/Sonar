@@ -1,0 +1,94 @@
+{
+  "identite": {
+    "prenom": "Tom",
+    "nom": "Kerdoncuff",
+    "ecole": "ISEN Yncréa Ouest (Brest)",
+    "annee_etudes": "4ème année (Master 1)",
+    "diplome_vise": "Diplôme d'ingénieur en Intelligence Artificielle"
+  },
+  "recherche": {
+    "type_contrat": "Alternance",
+    "duree_mois": 12,
+    "rythme_alternance": "Alternance par blocs (généralement 2 semaines en cours / 2 à 3 semaines en entreprise) d'octobre à mai, puis temps plein en entreprise de fin mai à septembre",
+    "titre_vise": "Ingénieur IA / Data Scientist / Développeur Logiciel",
+    "date_debut": "Octobre 2026",
+    "localisation": ["Bretagne", "Pays de la Loire"]
+  },
+  "competences_techniques": {
+    "langages": ["Python", "Java", "R", "HTML/CSS", "JavaScript", "PHP", "SQL", "C", "C#", "Ocaml"],
+    "machine_learning_deep_learning": ["pandas", "NumPy", "scikit-learn", "PyTorch", "TensorFlow", "OpenCV", "matplotlib", "Whisper", "BERT"],
+    "outils_devops": ["Git", "GitHub", "Linux", "VS Code", "MATLAB", "FastAPI"]
+  },
+  "soft_skills": ["Rigueur", "Persévérance", "Esprit d'équipe", "Productivité", "Curiosité"],
+  "experiences_professionnelles": [
+    {
+      "entreprise": "Safran Electronics & Defense",
+      "lieu": "Châteauneuf-sur-Isère",
+      "poste": "Stagiaire - Vérification de calculateurs",
+      "periode": "Juin - Septembre 2026",
+      "missions": [
+        "Conception d'un framework Python dédié à l'automatisation de bancs de test et au pilotage d'instruments de mesure.",
+        "Développement de briques de script pour la simulation de scénarios de vol et la génération automatique de sanctions de test."
+      ]
+    },
+    {
+      "entreprise": "Thales DMS",
+      "lieu": "Brest",
+      "poste": "Stagiaire - Tests automatiques IHM",
+      "periode": "Janvier - Février 2024",
+      "missions": [
+        "Réalisation de tests logiciels automatisés sur un outil dédié à la détection de signaux.",
+        "Analyse des résultats de tests via les spécifications SRS et les fiches STD."
+      ]
+    }
+  ],
+  "projets": [
+    {
+      "titre": "Moveetic - Système de Recommandation de Films",
+      "technos": ["Python", "BERT", "Similarité Cosinus", "FastAPI", "t-SNE", "K-Means"],
+      "resume": "Développement d'un moteur de recommandation basé sur le traitement du langage naturel (NLP). Utilisation du modèle BERT pour vectoriser les synopsis, calcul de proximité via la similarité cosinus, analyse par clustering K-Means/t-SNE et déploiement d'une API REST sous FastAPI."
+    },
+    {
+      "titre": "Banc d'Acquisition Automatisé d'antibiogrammes",
+      "technos": ["Python", "OpenCV", "libcamera", "SolidWorks"],
+      "resume": "Conception d'un boîtier physique sous SolidWorks et développement d'un flux de capture d'images en Python (OpenCV) optimisé pour l'analyse par Intelligence Artificielle."
+    },
+    {
+      "titre": "Site Web d'Analyse des données AIS",
+      "technos": ["R", "Python", "HTML/CSS", "JavaScript", "PHP", "SQL"],
+      "resume": "Collecte, nettoyage et analyse Big Data de données de navigation maritime (AIS). Intégration de modèles d'IA prédictifs en Python au sein d'une application web full-stack."
+    },
+    {
+      "titre": "Projet Oxymètre de Pouls",
+      "technos": ["C", "STM32", "Électronique analogique"],
+      "resume": "Conception et réalisation matérielle et logicielle d'un oxymètre de pouls embarqué."
+    }
+  ],
+  "langues": {
+    "francais": "Langue maternelle",
+    "anglais": "B2 (Score TOEIC : 910/990) - Expérience internationale",
+    "espagnol": "A2"
+  },
+  "international": [
+    {
+      "universite": "Hanyang University",
+      "lieu": "Séoul, Corée du Sud",
+      "type": "Semestre universitaire en informatique",
+      "periode": "Février - Juin 2026"
+    },
+    {
+      "universite": "Universiti Putra Malaysia",
+      "lieu": "Seri Kembangan, Malaisie",
+      "type": "Semestre universitaire en biologie",
+      "periode": "Mars - Juillet 2024"
+    }
+  ],
+  "distinctions": [
+    "2ème place à la Battle Dev 2025 (Classement ISEN Brest, organisé par Thales)"
+  ],
+  "preferences_entreprises": {
+    "secteurs_interessants": ["Tech", "Santé", "Fintech", "Aéronautique", "Transports", "Defense", "Supply Chain"],
+    "taille_entreprise": ["Scale-up", "Grand groupe"],
+    "secteurs_exclus": ["Jeux d'argent","Secteur Public"]
+  }
+}
